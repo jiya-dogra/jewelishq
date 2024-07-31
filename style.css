@@ -1,0 +1,102 @@
+﻿#name{
+    border-style:solid;
+    border-color:black;
+    border-width:0px;
+    background-image:url(images/background.jpg);
+    color:white;
+    font-size:50px;
+    padding:20px;
+}
+#tagline{
+    padding-left:55%;
+    font-family:'Vladimir Script';
+    word-spacing:12px;
+    letter-spacing:4px;
+    font-size:50%;
+}
+#navbar {
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+#navbar a{
+    float:left;
+    text-align:justify;
+    text-decoration:none;
+    font-size:25px;
+    color:black;
+    margin-top:5px;
+    margin-left:8.5%;
+}
+#base {
+    position: static;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(images/background.jpg);
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    overflow:hidden;
+}
+body{
+    margin:0px;
+    padding:0px;
+    user-select:none;
+}
+.about {
+    width: 70%;
+    font-size: 150%;
+    margin:auto;
+    margin-bottom:10%;
+    text-align:center;
+}
+#base > ul {
+    list-style: none;
+    display: flex;
+    font-family: Calibri;
+}
+#base > ul > li{
+    flex: 1 1 0%;
+    line-height:400%;
+}
+#base > ul > li > ul{
+    margin:0;
+    padding:0;
+}
+#base > ul > li > ul > li{
+    list-style:none;
+    line-height:150%;
+    font-family:Calibri;
+}
+#base > ul > li > ul > li > a{
+    text-decoration:none;
+    color:white;
+}
+.signup {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: fit-content;
+    margin: auto;
+}
+.signup input[type=text], input[type=password], input[type=email]{
+    border-style:none;
+    width:100%;
+    padding-top:3%;
+    padding-bottom:3%;
+    background-color:#dbdbdb;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.submit-button {
+    background-color: black;
+    border: 0;
+    width: 40%;
+    font-size: 110%;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
